@@ -1,0 +1,34 @@
+{
+  "name": "galaxy-ecommerce",
+  "version": "1.0.0",
+  "description": "You should still be able to do groceries while in Space ;)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "e-commerce",
+    "nodejs",
+    "express",
+    "galaxy-theme"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
