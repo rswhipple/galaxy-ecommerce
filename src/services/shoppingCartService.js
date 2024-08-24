@@ -1,6 +1,8 @@
 const ShoppingCart = require('../models/ShoppingCart');
 const ProductService = require('./productService');
 
+// WIP Observer pattern implementation
+
 class ShoppingCartService {
     static async getCart(cartId) {
         return ShoppingCart.findById(cartId).populate('products.product');
